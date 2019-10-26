@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script th:src="@{/js/test.js}"></script> 
+<script th:src="@{/js/jquery-3.4.1.min.js}"></script> 
+<head>
+<title>top page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <p th:text="${msg}" id="text" /> 
+  <input type="button" value="alert" id="alert"/>
+  <input type="text" id="num" size="30" maxlength="20">
+  <input type="button" value="ajax" id="ajax"/>
+</body>
+</html>
